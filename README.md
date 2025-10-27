@@ -26,26 +26,6 @@ The experiment demonstrates how to deploy, manage, and scale a **two-tier web ap
 
 ---
 
-## 🧱 Folder Structure
-├── backend/
-│ ├── app.py
-│ ├── Dockerfile
-│ └── requirements.txt
-│
-├── frontend/
-│ ├── app.js
-│ ├── Dockerfile
-│ ├── package.json
-│ └── views/
-│ └── index.html
-│
-├── docker-compose.yml
-├── deployment-backend.yaml
-├── service-backend.yaml
-├── deployment-frontend.yaml
-└── service-frontend.yaml
-
-
 ## ⚡ Steps Performed
 1. **Built Docker images** for Flask and Express apps.  
 2. **Deployed and verified** multi-container setup using Docker Compose.  
