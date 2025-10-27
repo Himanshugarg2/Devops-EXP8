@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Form to Flask</title>
+</head>
+<body>
+  <h1>Submit to Flask Backend</h1>
+  <form method="post" action="/submit">
+    <label>Name: <input name="name" /></label><br/><br/>
+    <label>Message: <input name="message" /></label><br/><br/>
+    <button type="submit">Send</button>
+  </form>
+  <div id="response"></div>
+</body>
+</html>

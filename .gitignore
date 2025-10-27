@@ -1,0 +1,19 @@
+# Node
+frontend/node_modules/
+frontend/npm-debug.log
+frontend/package-lock.json
+
+# Python
+backend/__pycache__/
+backend/.pytest_cache
+
+# VS Code
+.vscode/
+
+# Docker
+*.env
+
+# OS
+.DS_Store
+
+.docker/
